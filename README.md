@@ -3,31 +3,40 @@
 ## Project Overview
 This project is a comprehensive full-stack interactive quiz application designed to enhance your development skills using React for the front-end, Spring Boot for the back-end, and MySQL for the database. The application allows users to take quizzes, view scores, and review answers. It also includes an admin panel for adding and managing quiz questions.
 
-## Features
-- User registration and authentication
-- Quiz creation and management by admin
-- Taking quizzes and viewing scores
-- Reviewing correct and incorrect answers
-- Secure handling of user data and authentication
+Features
+User registration and authentication
 
-## Technologies Used
-- **Frontend**: React
-- **Backend**: Spring Boot
-- **Database**: MySQL
-- **Others**:  Spring Security,jwt
+Quiz creation and management by admin
 
-## Setup and Installation
+Taking quizzes and viewing scores
 
-### Prerequisites
-- Node.js and npm
-- Java JDK (version 11 or higher)
-- MySQL Server
+Reviewing correct and incorrect answers
 
-### Frontend Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Soumyaatanna/Quiz.git
-   cd Quiz
+Secure handling of user data and authentication
+
+Technologies Used
+Frontend: React
+
+Backend: Spring Boot
+
+Database: MySQL
+
+Others: Spring Security, JWT
+
+Setup and Installation
+Prerequisites
+Node.jsand npm
+
+Java JDK (version 11 or higher)
+
+MySQL Server
+
+Frontend Setup
+Clone the repository:
+
+sh
+git clone https://github.com/Soumyaatanna/Quiz.git
+cd Quiz
 Navigate to the frontend directory and install dependencies:
 
 sh
@@ -65,13 +74,11 @@ The database schema will be automatically created by the Spring Boot application
 
 API Endpoints
 User Authentication
-
 POST /api/auth/signup - Register a new user
 
 POST /api/auth/signin - Authenticate a user
 
 Quiz Management
-
 POST /api/quizzes - Create a new quiz (admin only)
 
 GET /api/quizzes - Retrieve all quizzes
@@ -83,7 +90,6 @@ PUT /api/quizzes/{id} - Update a quiz (admin only)
 DELETE /api/quizzes/{id} - Delete a quiz (admin only)
 
 Quiz Taking
-
 POST /api/quizzes/{id}/take - Submit quiz answers and calculate score
 
 GET /api/quizzes/{id}/results - Retrieve quiz results for a user
@@ -105,4 +111,4 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any questions or support, please contact Soumya.
+For any questions or support, please contact Soumya Atanna.
