@@ -102,4 +102,4 @@ This project is a comprehensive full-stack interactive quiz application designed
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or support, please contact Soumya Atanna.
+For any questions or support, please contact Soumya Tanna.
